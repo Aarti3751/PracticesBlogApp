@@ -1,0 +1,156 @@
+/* Profile Container */
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-details p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.profile-details strong {
+  color: #333;
+}
+
+/* Blog Section */
+.container {
+  max-width: 1200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-danger {
+  color: #e74c3c;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Like Button */
+.like-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.like-button {
+  display: inline-flex;
+  align-items: center;
+  background-color: #3498db;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.like-button:hover {
+  background-color: #2980b9;
+}
+
+.like-button.liked {
+  background-color: #27ae60;
+}
+
+.like-count {
+  margin-left: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Comment Section */
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+button {
+  margin-top: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 767px) {
+  .profile-container {
+    padding: 15px;
+  }
+
+  .profile-details {
+    text-align: center;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .like-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .like-count {
+    margin-left: 0;
+    font-size: 1rem;
+  }
+}

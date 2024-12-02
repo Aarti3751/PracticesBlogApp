@@ -1,0 +1,117 @@
+
+
+/* Custom Navbar Styles */
+.navbar-custom {
+  background-color: #2c3e50; /* Dark background color */
+  padding: 10px 20px; /* Padding around the navbar */
+}
+
+.navbar-brand {
+  color: #ecf0f1;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-right: auto; /* Align the brand to the left */
+}
+
+.navbar-brand:hover {
+  color: #3498db;
+}
+
+.navbar-toggler {
+  border-color: #3498db; /* Change color of toggle button */
+}
+
+.navbar-toggler-icon {
+  background-color: #3498db; /* Change color of the toggle icon */
+}
+
+/* Navbar Links */
+.navbar-custom .navbar-nav {
+  justify-content: flex-start; /* Align the links to the right */
+  font-size: 1.1rem; /* Increase font size for better readability */
+}
+
+.navbar-custom .nav-link {
+  color: #ecf0f1; /* Light text color */
+  padding-left: 20px; /* Add some padding to the left of each link */
+  padding-right: 20px; /* Add some padding to the right of each link */
+  transition: color 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.navbar-custom .nav-link:hover {
+  color: #3498db; /* Change text color on hover */
+}
+
+.navbar-custom .nav-link.active {
+  color: #3498db; /* Highlight active link with a blue color */
+}
+
+/* Dropdown Styles */
+.dropdown-toggle {
+  background-color: #3498db;
+  border: none;
+  color: #ecf0f1;
+  padding: 6px 20px;
+  font-size: 1.1rem;
+}
+
+.dropdown-toggle:hover {
+  background-color: #2980b9;
+}
+
+.dropdown-menu {
+  background-color: #34495e;
+}
+
+.dropdown-item {
+  color: #ecf0f1;
+}
+
+.dropdown-item:hover {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+/* Create Blog Button */
+.create-blog {
+  background-color: #2ecc71; /* Green color for create blog */
+  border-radius: 20px;
+  padding: 8px 20px;
+}
+
+.create-blog:hover {
+  background-color: #27ae60; /* Darker green on hover */
+}
+
+/* Logout Button */
+.logout-link {
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 20px;
+  padding: 8px 20px;
+}
+
+.logout-link:hover {
+  background-color: #c0392b;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 767px) {
+  .navbar-custom {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .navbar-brand {
+    font-size: 1.6rem; /* Slightly smaller brand name */
+  }
+
+  .navbar-nav {
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 0;
+  }
+}

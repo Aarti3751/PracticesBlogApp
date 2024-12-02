@@ -1,0 +1,33 @@
+/* RegisterForm.css */
+.container {
+    margin-top: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .mt-3 {
+    margin-top: 15px;
+  }
+  
+  /* Toast message styling */
+  .Toastify__toast-container {
+    top: 80px; /* Adjust the position of toasts */
+    right: 20px;
+  }
+ 

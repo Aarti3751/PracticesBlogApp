@@ -1,0 +1,72 @@
+/* AdminLogin.css */
+
+/* Full screen container to center the login form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f8f9fa; /* Light background color for the page */
+  }
+  
+  /* Card-style container for the form */
+  .login-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px; /* Ensure the form doesn't stretch too wide */
+  }
+  
+  /* Form styling */
+  .login-form {
+    margin-top: 20px;
+  }
+  
+  /* Title Styling */
+  .login-card h2 {
+    font-size: 1.8rem;
+    color: #007bff; /* Blue color for the title */
+    font-weight: 700;
+  }
+  
+  /* Input field styling */
+  .form-control {
+    border-radius: 5px; /* Rounded corners for the input fields */
+    box-shadow: none; /* Remove default shadow */
+    border: 1px solid #ccc; /* Light border color */
+  }
+  
+  /* Button Styling */
+  button[type='submit'] {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Alert styling */
+  .alert {
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Responsive design for small screens */
+  @media (max-width: 576px) {
+    .login-card {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .login-card h2 {
+      font-size: 1.6rem;
+    }
+  }
+  

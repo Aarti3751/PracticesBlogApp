@@ -1,0 +1,140 @@
+/* Blog List Styles */
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+    color: #34495e;
+  }
+  
+  /* Table Styles */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table td {
+    background-color: #f4f4f4;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #ecf0f1;
+  }
+  
+  .table tr:hover {
+    background-color: #dfe6e9;
+  }
+  
+  /* Flexbox for Edit and Delete buttons */
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-content-start {
+    justify-content: flex-start;
+  }
+  
+  .gap-2 {
+    gap: 8px; /* Reduced gap */
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;  /* Reduced left margin */
+    margin-right: 4px; /* Reduced right margin */
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  button .mr-2 {
+    margin-right: 6px; /* Smaller margin between icon and text */
+  }
+  
+  /* Smaller Edit and Delete Button Styles */
+  .btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 6px 12px; /* Smaller padding */
+    font-size: 12px; /* Smaller font size */
+    display: flex;
+    align-items: center;
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn-danger {
+    background-color: #e74c3c;
+    border: none;
+    padding: 6px 12px; /* Smaller padding */
+    font-size: 12px; /* Smaller font size */
+    display: flex;
+    align-items: center;
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .btn-danger:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Modal Styles */
+  .modal-content {
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .modal-header {
+    background-color: #3498db;
+    color: white;
+    border-bottom: 2px solid #2980b9;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    padding: 15px;
+  }
+  
+  /* Form Inputs */
+  .form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  
+  button[type='submit'] {
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #27ae60;
+  }
+  
